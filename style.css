@@ -2,6 +2,9 @@ body {
 	background-image: url(./images/deer.png);
 	background-repeat: no-repeat;
 	font-family: arial;
+	margin-left: 400px;
+	margin-top: 480px;
+	background-position: 50% 0%;
 }
 
 
