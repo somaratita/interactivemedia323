@@ -1,0 +1,96 @@
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFF;
+	background-image: url("./images/bg2.jpg");
+	background-attachment: fixed;
+	background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	font-family: arial;
+}
+
+.mainContent { 
+	background-color: #FFF; 
+	width: 900px;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.button {
+	background-color: #e0e0eb;
+	border: none;
+	border-radius: 20px 5px;
+	padding: 10px;
+	color: #4E3C63;
+	margin: 10px 20px 10px 20px;
+	font-size:25px;
+	font-family:monospace;
+	transition: 0.5s;
+	text-decoration: none;
+}	
+
+
+.button:hover {
+	background-color: gold;
+	border: none;
+	border-radius: 20px 5px;
+	padding: 15px;
+	color: #4E3C63;
+	margin: 10px 20px 10px 20px;
+}	
+
+
+h1 {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 85px;
+	color: gold;
+	text-shadow: 4px 4px #4E3C63;
+}
+
+
+h2 {
+	text-align: center;
+	background-color: gold;
+	padding:2px;
+	color: #4E3C63;
+}
+
+
+.btn-donate span {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.btn-donate {
+    background-color: #e0e0eb;
+    text-align: center;
+    width: 149px;
+    height: 148px;
+    border-radius: 100%;
+    display: table;
+    font-size: 35px;
+    vertical-align: middle;
+    color: #4E3C63;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+    margin:0 auto;
+}
+
+.btn:hover {
+	background-color: gold;
+}
+
+.horizon {
+	display: inline-block;
+}
