@@ -1,0 +1,41 @@
+body {
+	background-image: url(./images/deer.png);
+	background-repeat: no-repeat;
+	font-family: arial;
+}
+
+
+
+h1 {
+	font-family: "Century Gothic";
+	color:purple;
+	text-transform: uppercase;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: teal;
+	text-transform: lowercase;
+}
+
+a:hover {
+	color:purple;
+}
+
+
+p {
+	color: purple;
+}
+
+
+
+.wrapper {
+}
+
+
+
+.future {
+	display: none;
+}
