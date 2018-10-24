@@ -5,36 +5,46 @@ body {
 	margin-left: 400px;
 	margin-top: 480px;
 	background-position: 50% 0%;
+	width: 200px;
 }
 
 
 
 h1 {
 	font-family: "Century Gothic";
-	color:purple;
+	color:#46324d;
 	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 2px 2px pink;
 }
 
 
 
 a {
 	text-decoration: none;
-	color: teal;
+	color: pink;
 	text-transform: lowercase;
+	transition: 0.3s;
 }
 
 a:hover {
-	color:purple;
+	color:white;
 }
 
 
 p {
-	color: purple;
+	color: #fdca95;
+	font-weight: bold;
 }
 
 
 
 .wrapper {
+	background-color: #46324d;
+	padding: 3px 15px;
+	border-radius: 20px;
+	margin: 10px;
+	opacity: 0.85;
 }
 
 
