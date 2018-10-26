@@ -3,7 +3,7 @@ body {
 	background-repeat: no-repeat;
 	font-family: arial;
 	margin-left: 400px;
-	margin-top: 480px;
+	margin-top: 490px;
 	background-position: 50% 0%;
 	width: 200px;
 }
@@ -12,10 +12,10 @@ body {
 
 h1 {
 	font-family: "Century Gothic";
-	color:#46324d;
+	color:#fff;
 	text-transform: uppercase;
 	text-align: center;
-	text-shadow: 2px 2px pink;
+	text-shadow: 2px 2px #46324d;
 }
 
 
@@ -51,4 +51,32 @@ p {
 
 .future {
 	display: none;
+}
+
+
+
+.homepage {
+	position: fixed;
+    top: 10px;
+    left: 10px;
+    color: yellow;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:monospace;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+
+.homepage:hover {
+	position: fixed;
+    top: 10px;
+    left: 10px;
+    color: yellow;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:monospace;
+    opacity: 1.0;
 }
