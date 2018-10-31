@@ -1,0 +1,9 @@
+h3, h6 {
+	border-style: solid;
+	border-color: black;
+	margin: 0 auto;
+	padding:20px;
+	width: 80px;
+	position: relative;
+}
+
