@@ -1,0 +1,14 @@
+body {
+	margin:0 auto;
+	display: relative;
+	width:90%;
+
+}
+
+.container {
+	display: inline-block;
+	border-style: solid;
+	border-width: 200px;
+	margin-bottom: 5px;
+	padding:4px;
+}
