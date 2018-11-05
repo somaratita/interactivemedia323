@@ -1,13 +1,31 @@
 body {
-	background-image: url(./images/deer.png);
-	background-repeat: no-repeat;
 	font-family: arial;
-	margin-left: 400px;
-	margin-top: 490px;
+	margin-left: 35%;
+	margin-top: 10%;
 	background-position: 50% 0%;
 	width: 200px;
 }
 
+#bg {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  z-index: -1;
+}
 
 
 h1 {
