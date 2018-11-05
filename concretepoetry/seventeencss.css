@@ -1,19 +1,409 @@
-
-
-.line1 {
-	display: inline-block;
-	position: absolute;
-	font-family: impact;
-	text-transform: uppercase;
-	font-size: 800px;
+body {
+	margin:0px;
 }
 
-.wrapper {
-	display: inline-block;
-	position: absolute;
-	font-size: 12px;
-	width: 150px;
-	color: white;
-	margin-top: 680px;
-	margin-left: 40px;
+.line1 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #368cbb;
+	color:white;
+	padding: 5px;
+}
+
+
+.line2 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #4299b5;
+	color:white;
+	padding: 5px;
+}
+
+.line3 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #4da7b0;
+	color:white;
+	padding: 5px;
+}
+
+.line4 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #5eb9a8;
+	color:white;
+	padding: 5px;
+}
+
+.line5 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #6ac3a4;
+	color:white;
+	padding: 5px;
+}
+
+.line6 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #77c8a4;
+	color:white;
+	padding: 5px;
+}
+
+
+.line7 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #86cea4;
+	color:white;
+	padding: 5px;
+}
+
+
+.line8 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #97d5a4;
+	color:white;
+	padding: 5px;
+}
+
+
+.line9 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #aedea3;
+	color:white;
+	padding: 5px;
+}
+
+
+.line10 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #b9e2a1;
+	color:white;
+	padding: 5px;
+}
+
+
+.line11 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #c7e89e;
+	color:white;
+	padding: 5px;
+}
+
+
+.line12 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #d2ed9b;
+	color:white;
+	padding: 5px;
+}
+
+
+
+.line13 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #e1f398;
+	color:white;
+	padding: 5px;
+}
+
+
+.line14 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #eaf69e;
+	color:white;
+	padding: 5px;
+}
+
+
+.line15 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #eff8a7;
+	color:white;
+	padding: 5px;
+}
+
+
+.line16 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #f6fbb1;
+	color:white;
+	padding: 5px;
+}
+
+
+.line17 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fcfdba;
+	color:white;
+	padding: 5px;
+}
+
+.line18 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fefbb8;
+	color:white;
+	padding: 5px;
+}
+
+.line19 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fef3ab;
+	color:white;
+	padding: 5px;
+}
+
+.line20 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #feeb9f;
+	color:white;
+	padding: 5px;
+}
+
+.line21 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fee492;
+	color:white;
+	padding: 5px;
+}
+
+.line22 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fddb86;
+	color:white;
+	padding: 5px;
+}
+
+.line23 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fddb86;
+	color:white;
+	padding: 5px;
+}
+
+.line24 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fdcf7c;
+	color:white;
+	padding: 5px;
+}
+
+.line25 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fdc272;
+	color:white;
+	padding: 5px;
+}
+
+.line26 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fdb668;
+	color:white;
+	padding: 5px;
+}
+
+
+.line27 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fca95f;
+	color:white;
+	padding: 5px;
+}
+
+
+
+.line28 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fa9957;
+	color:white;
+	padding: 5px;
+}
+
+
+
+.line29 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #f78950;
+	color:white;
+	padding: 5px;
+}
+
+
+
+.line30 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #f57a49;
+	color:white;
+	padding: 5px;
+}
+
+
+
+.line31 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #f26b43;
+	color:white;
+	padding: 5px;
+}
+
+
+
+.line32 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #eb5f46;
+	color:white;
+	padding: 5px;
+}
+
+.line33 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #e35449;
+	color:white;
+	padding: 5px;
+}
+
+.line34 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #dc494c;
+	color:white;
+	padding: 5px;
+}
+
+.line35 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #e35449;
+	color:white;
+	padding: 5px;
+}
+
+.line36 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #eb5f46;
+	color:white;
+	padding: 5px;
+}
+
+.line37 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #f26b43;
+	color:white;
+	padding: 5px;
+}
+
+.line38 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #f57a49;
+	color:white;
+	padding: 5px;
+}
+
+.line39 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #f78950;
+	color:white;
+	padding: 5px;
+}
+
+
+.line40 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fa9957;
+	color:white;
+	padding: 5px;
+}
+
+
+.line41 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fca95f;
+	color:white;
+	padding: 5px;
+}
+
+.line42 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fdb668;
+	color:white;
+	padding: 5px;
+}
+
+
+.line43 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fdc272;
+	color:white;
+	padding: 5px;
+}
+
+
+.line44 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fdcf7c;
+	color:white;
+	padding: 5px;
+}
+
+
+.line45 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fddb86;
+	color:white;
+	padding: 5px;
+}
+
+
+.line46 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #fee492;
+	color:white;
+	padding: 5px;
+}
+
+.line47 {
+	font-style: italic;
+	font-size: 40px;
+	background-color: #feeb9f;
+	color:white;
+	padding: 5px;
 }
