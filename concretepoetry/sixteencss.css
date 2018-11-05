@@ -1,0 +1,19 @@
+
+
+.line1 {
+	display: inline-block;
+	position: absolute;
+	font-family: impact;
+	text-transform: uppercase;
+	font-size: 800px;
+}
+
+.wrapper {
+	display: inline-block;
+	position: absolute;
+	font-size: 12px;
+	width: 150px;
+	color: white;
+	margin-top: 680px;
+	margin-left: 40px;
+}

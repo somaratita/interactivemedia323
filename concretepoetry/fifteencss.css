@@ -1,0 +1,16 @@
+body {
+	margin: 0 auto;
+	width: 500px;
+	background-color: black;
+}
+
+.pickle {
+	background-color: white;
+	color: black;
+	display: block;
+	position: relative;
+	left:0px;
+	padding:200px;
+	padding-bottom: 3000px;
+	margin: 0px;
+}
