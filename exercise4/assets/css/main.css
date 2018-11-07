@@ -1,0 +1,239 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background-image: linear-gradient(white, gray);
+	position: relative;
+	z-index: -1;
+	padding:20px;
+}
+
+.base {
+	background-image: linear-gradient(45deg, lightblue,lightpink);
+	width: 270px;
+	height: 500px;
+	margin: 0 auto;
+	border-radius: 20px;
+	z-index: 0;
+
+}
+
+.border {
+	background-color: rgba(0, 0, 255, 0.1);
+	width: 280px;
+	height: 500px;
+	margin: 0 auto;
+	border-radius: 20px;
+	z-index: 1;
+	display: inline-block;
+	position: absolute;
+}
+
+.cambase { 
+	background-color: lightgray;
+	width: 100px;
+	height: 50px;
+	border-radius: 15px;
+	z-index: 2;
+	display: inline-block;
+	position: relative;
+	margin-left: 31%;
+	margin-top: 10%;
+}
+
+.cambaseshad { 
+	background-color: gray;
+	width: 105px;
+	height: 53px;
+	border-radius: 15px;
+	z-index: 2;
+	display: inline-block;
+	position: absolute;
+	margin-left: 9.2%;
+	margin-top: 3%;
+}
+
+.cameye {
+	background-image: linear-gradient(45deg, hotpink,black);
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	z-index: 4;
+	display: inline-block;
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.cameye2 {
+	background-color: white;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	z-index: 3;
+	display: inline-block;
+	position: absolute;
+	margin-left: 11%;
+	margin-top: 11%;
+}
+
+.cameye3 {
+	background-image: linear-gradient(45deg, hotpink,black);
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	z-index: 5;
+	display: inline-block;
+	position: absolute;
+	margin-left: 19%;
+	margin-top: 19%;
+}
+
+.cameye4 {
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	z-index: 4;
+	display: inline-block;
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 20%;
+}
+
+.cameyehigh1 {
+	background-color: white;
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	z-index: 6;
+	display: inline-block;
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 20%;
+}
+
+.cameyehigh2 {
+	background-color: white;
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	z-index: 6;
+	display: inline-block;
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 20%;
+}
+
+.shad {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(180, 180, 180, .1));
+	width: 280px;
+	height: 35px;
+	margin: 0 auto;
+	border-radius: 20px 20px 0px 0px;
+	z-index: 0;
+	
+}
+
+.speaker {
+	background-image: linear-gradient(70deg, black, gray);
+	width: 30px;
+	height: 20px;
+	border-radius: 7px;
+	z-index: 3;
+	display: inline-block;
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 400%;
+}
+
+.speakershad {
+	background-color: white;
+	width: 31px;
+	height: 21px;
+	border-radius: 7px;
+	z-index: 2;
+	display: block;
+	position: absolute;
+	margin-left: 40.5%;
+	margin-top: 400.5%;
+}
+
+
+
+
+
+
+.canvas2 {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	margin-top: 300px;
+	background-image: linear-gradient(lightgreen, teal);
+	position: relative;
+	z-index: -1;
+	padding-top:150px;
+}
+
+
+.ball {
+	width: 200px;
+	height: 200px;
+	background-image: linear-gradient(rgba(255, 127, 80, 1.0), rgba(0, 128, 128, 1.0));
+	border-radius: 50%;
+	margin: 0 auto; 
+	margin-top: 100px;
+	z-index: 5;
+}
+
+.ballinside {
+	width: 100px;
+	height: 50px;
+	background-image: linear-gradient(coral, teal);
+	border-radius: 50%;
+	margin: 0 auto; 
+}
+
+
+.ballbottom {
+	width: 100px;
+	height: 50px;
+	background-image: linear-gradient(coral, teal);
+	border-radius: 50%;
+	margin: 0 auto; 
+	margin-top: 100px;
+}
+
+.flower1 {
+	width: 3px;
+	height: 250px;
+	background-color: lightgreen;
+	display: inline-block;
+	position: absolute;
+	margin-left: 480px;
+	margin-top: 40px;
+	z-index: 0;
+	transform: rotate(15deg);
+	visibility: hidden;
+
+}
+
+.ballover {
+	width: 200px;
+	height: 200px;
+	background-image: linear-gradient(rgba(255, 127, 80, 0.5), rgba(0, 128, 128, 0.5));
+	border-radius: 50%;
+	margin-top: 100px;
+	margin-left: 350px;
+	display: inline-block;
+	position: absolute;
+	z-index: 5;
+}

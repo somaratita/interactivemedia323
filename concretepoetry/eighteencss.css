@@ -23,11 +23,11 @@ body {
 	display: inline-block;
 	position: absolute;
 	width: 900px;
-	height: 50px;
+	height: 80px;
 	margin-left: 500px;
-	margin-top: 20px;
+	margin-top: 0px;
 	padding: 20px;
-	border-radius: 20px;
+	border-radius: 0px 0px 20px 20px;
 }
 
 
@@ -41,6 +41,7 @@ body {
 	letter-spacing: -1px;
 }
 
+
 .box2 {
 	background-color: black;
 	display: inline-block;
@@ -49,5 +50,96 @@ body {
 	height: 50px;
 	margin-top: 280px;
 	right:0px;
-	border-radius: 10px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+
+.pickle3 {
+	display: inline-block;
+	position: absolute;
+	margin-top:1230px;
+	left:90px;
+	color: white;
+	letter-spacing: -1px;
+}
+
+
+.box3 {
+	background-color: black;
+	display: inline-block;
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	margin-top: 1250px;
+	left:0px;
+	border-radius: 0px 10px 10px 0px;
+}
+
+
+.pickle4 {
+	display: inline-block;
+	position: absolute;
+	margin-top:1320px;
+	left:90px;
+	color: white;
+	letter-spacing: -1px;
+}
+
+
+.box4 {
+	background-color: black;
+	display: inline-block;
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	margin-top: 1320px;
+	left:0px;
+	border-radius: 0px 10px 10px 0px;
+}
+
+
+
+.pickle5 {
+	display: inline-block;
+	position: absolute;
+	margin-top:1520px;
+	right: 200px;
+	color: white;
+	letter-spacing: -1px;
+	font-size: 500px;
+}
+
+
+.box5 {
+	background-color: black;
+	display: inline-block;
+	position: absolute;
+	width: 1500px;
+	height: 300px;
+	margin-top: 1520px;
+	right:100px;
+	border-radius: 20px;
+}
+
+
+.pickle6 {
+	display: inline-block;
+	position: absolute;
+	margin-top:1520px;
+	right: 200px;
+	color: white;
+	letter-spacing: -1px;
+	font-size: 500px;
+}
+
+
+.box6 {
+	background-color: black;
+	display: inline-block;
+	position: absolute;
+	width: 1500px;
+	height: 300px;
+	margin-top: 1520px;
+	right:100px;
+	border-radius: 20px;
 }
