@@ -1,46 +1,41 @@
 body {
-	font-family: arial;
-	margin-left: 35%;
-	margin-top: 10%;
-	background-position: 50% 0%;
-	width: 200px;
+    background-image: linear-gradient(#d5977e, #27465d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: arial;
+    width: 50%;
+    margin-left: 200px;
 }
 
-#bg {
-	position: fixed; 
-	top: 0; 
-	left: 0; 
-	min-width: 100%;
-	min-height: 100%;
-	z-index: -1;
-}
 
-#bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-  z-index: -1;
+
+.girlie {
+	display: inline-block;
+	position: absolute;
+	min-width: 600px;
+	max-width: 600px;
 }
 
 
 h1 {
-	font-family: "Century Gothic";
-	color:#fff;
+	display: inline-block;
+	position: absolute;
+	font-family: "arial";
+	color:#27465d;
+	font-size: 50px;
 	text-transform: uppercase;
 	text-align: center;
-	text-shadow: 2px 2px #46324d;
+	text-shadow: 2px 2px #d5977e;
+	margin-top: 230px;
+	margin-left: 500px;
 }
 
 
 
 a {
 	text-decoration: none;
-	color: pink;
+	color: #d8c3c0;
 	text-transform: lowercase;
 	transition: 0.3s;
 }
@@ -58,11 +53,16 @@ p {
 
 
 .wrapper {
-	background-color: #46324d;
+	display: inline-block;
+	position: absolute;
+	background-image: linear-gradient(#d5977e, #27465d);
 	padding: 3px 15px;
 	border-radius: 20px;
-	margin: 10px;
+	width: 200px;
 	opacity: 0.85;
+	margin-top: 350px;
+	margin-left: 520px;
+
 }
 
 
