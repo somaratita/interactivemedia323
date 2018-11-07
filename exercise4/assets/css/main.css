@@ -50,14 +50,14 @@ body {
 }
 
 .cambaseshad { 
-	background-color: gray;
-	width: 105px;
+	background-color: white;
+	width: 103px;
 	height: 53px;
 	border-radius: 15px;
 	z-index: 2;
 	display: inline-block;
 	position: absolute;
-	margin-left: 9.2%;
+	margin-left: 9.4%;
 	margin-top: 3%;
 }
 
@@ -212,24 +212,25 @@ body {
 	margin-top: 100px;
 }
 
-.flower1 {
-	width: 3px;
+.straw {
+	width: 10px;
 	height: 250px;
-	background-color: lightgreen;
+	background-image: linear-gradient(lightgreen, yellow);
 	display: inline-block;
 	position: absolute;
-	margin-left: 480px;
+	border-radius: 2px;
+	margin-left: 475px;
 	margin-top: 40px;
 	z-index: 0;
-	transform: rotate(15deg);
-	visibility: hidden;
+	transform: rotate(16deg);
+	
 
 }
 
 .ballover {
 	width: 200px;
 	height: 200px;
-	background-image: linear-gradient(rgba(255, 127, 80, 0.5), rgba(0, 128, 128, 0.5));
+	background-image: linear-gradient(rgba(255, 127, 80, 0.6), rgba(0, 128, 128, 0.6));
 	border-radius: 50%;
 	margin-top: 100px;
 	margin-left: 350px;
