@@ -1,5 +1,8 @@
 body {
-	background-color: lightblue;
+	background-image: linear-gradient(lightblue, lightgray);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 	margin:15px;
 }
 
