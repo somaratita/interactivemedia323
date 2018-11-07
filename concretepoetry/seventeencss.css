@@ -3,21 +3,25 @@ body {
 	width: 100%;	
 	text-align: center;
 	background-color: black;
+	font-family: arial;
+	text-transform: lowercase;
 }
 
 .pickle {
-	display: block;
 	position: relative;
 	font-size: 300px;
 	color: white;
 	background-color: white;
+	letter-spacing: 0px;
+	transition: 0.3s;
 }
 
 .pickle:hover {
-	display: inline-block;
 	position: relative;
 	background-color: black;
 	color: white;
+	letter-spacing: 20px;
+	font-size: 250px;
 }
 
 #wrapper {

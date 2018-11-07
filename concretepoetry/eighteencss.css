@@ -1,16 +1,53 @@
 body {
-	margin: 0 auto;
-	width: 500px;
-	background-color: black;
+	margin:0px;
+	font-family: arial;
+	background-image: linear-gradient(#fff, #000);
+	background-size: 100%;
 }
 
-.pickle {
-	background-color: white;
-	color: black;
-	display: block;
-	position: relative;
-	left:0px;
-	padding:200px;
-	padding-bottom: 3000px;
-	margin: 0px;
+.pickle1 {
+	display: inline-block;
+	position: absolute;
+	color: white;
+	font-size: 50px;
+	letter-spacing: 50px;
+	margin-left: 500px;
+	margin-top:50px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+
+.box1 {
+	background-color: black;
+	display: inline-block;
+	position: absolute;
+	width: 900px;
+	height: 50px;
+	margin-left: 500px;
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+
+
+.pickle2 {
+	display: inline-block;
+	position: absolute;
+	margin-top:310px;
+	right:90px;
+	color: white;
+	letter-spacing: -1px;
+}
+
+.box2 {
+	background-color: black;
+	display: inline-block;
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	margin-top: 280px;
+	right:0px;
+	border-radius: 10px;
 }
