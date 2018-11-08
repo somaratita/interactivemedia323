@@ -4,8 +4,6 @@ body {
     background-attachment: fixed;
     background-size: 100%;
     font-family: arial;
-    width: 50%;
-    margin-left: 200px;
 }
 
 
@@ -13,24 +11,32 @@ body {
 .girlie {
 	display: inline-block;
 	position: absolute;
-	min-width: 750px;
-	max-width: 750px;
+	min-width: 600px;
+	max-width: 600px;
+	margin-left: 1%;
+	z-index: 2;
 }
 
 
 h1 {
 	display: inline-block;
-	position: relative;
+	position: absolute;
 	font-family: "arial";
-	color:#27465d;
-	font-size: 100px;
+	color:transparent;
+	opacity: 0.6;
+	font-size: 230px;
 	text-transform: uppercase;
-	text-shadow: 2px 2px #d5977e;
-	margin-top: 230px;
-	margin-left: 650px;
+	line-height: 80%;
+	text-shadow: 1px 1px #d5977e;
+	text-align: right;
+	right: 0px;
 	margin-bottom: 0px;
+	z-index: 1;
+	filter: blur(7px);
 }
 
+
+  
 
 
 a {
@@ -54,17 +60,87 @@ p {
 
 .wrapper {
 	display: block;
-	position: absolute;
+	position: relative;
 	background-image: linear-gradient(#d5977e, #27465d);
-	padding: 3px 15px;
+	padding: 550px 10px 3px 400px;
 	border-radius: 20px;
+	text-align: center;
+	font-size: 13px;
 	width: 200px;
 	opacity: 0.85;
 	margin-top: 0px;
-	margin-left: 650px;
-
+	margin-left: 300px;
+	z-index: -1;
 }
 
+
+.social {
+	display: block;
+	position: relative;
+	background-color:#27465d;
+	width: 400px;
+	height: 50px;
+	margin-left: 250px;
+	margin-top: 20px;
+	border-radius: 15px;
+	transition: 0.5s;
+}
+
+.social:hover {
+	display: block;
+	position: relative;
+	background-color: #d5977e;
+	width: 400px;
+	height: 50px;
+	margin-left: 510px;
+	margin-top: 20px;
+	border-radius: 15px;
+}
+
+.insta {
+	display: inline-block;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	margin-left: 130px;
+	transition: 0.3s;
+}
+
+.insta:hover {
+	width:46px;
+	height: 46px;
+	padding-top:2px;
+}
+
+.tumblr {
+	display: inline-block;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	margin-left: 200px;
+	transition: 0.3s;
+}
+
+
+.tumblr:hover {
+	width:46px;
+	height: 46px;
+	padding-top:2px;
+}
+
+
+.rb {
+	width: 50px;
+	height: 50px;
+	margin-left: 270px;
+	transition: 0.3s;
+}
+
+.rb:hover {
+	width:46px;
+	height: 46px;
+	padding-top:2px;	
+}
 
 
 .future {
@@ -77,11 +153,6 @@ p {
 	position: fixed;
     top: 10px;
     left: 10px;
-    color: yellow;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    font-family:monospace;
     opacity: 0.7;
     transition: 0.3s;
 }
@@ -91,10 +162,5 @@ p {
 	position: fixed;
     top: 10px;
     left: 10px;
-    color: yellow;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    font-family:monospace;
     opacity: 1.0;
 }
