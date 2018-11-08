@@ -110,8 +110,8 @@ p {
 .social:hover {
 	display: block;
 	position: relative;
-	background-color: #d5977e;
-	width: 400px;
+	background-color: #d8c3c0;
+	width: 350px;
 	height: 50px;
 	margin-left: 510px;
 	margin-top: 20px;
@@ -125,12 +125,14 @@ p {
 	height: 50px;
 	margin-left: 130px;
 	transition: 0.3s;
+	filter: grayscale(100%);
 }
 
 .insta:hover {
 	width:46px;
 	height: 46px;
 	padding-top:2px;
+	filter: grayscale(0%);
 }
 
 .tumblr {
@@ -140,6 +142,7 @@ p {
 	height: 50px;
 	margin-left: 200px;
 	transition: 0.3s;
+	filter: grayscale(100%);
 }
 
 
@@ -147,6 +150,7 @@ p {
 	width:46px;
 	height: 46px;
 	padding-top:2px;
+	filter: grayscale(0%);;
 }
 
 
@@ -155,12 +159,14 @@ p {
 	height: 50px;
 	margin-left: 270px;
 	transition: 0.3s;
+	filter: grayscale(100%);	
 }
 
 .rb:hover {
 	width:46px;
 	height: 46px;
-	padding-top:2px;	
+	padding-top:2px;
+	filter: grayscale(0%);	
 }
 
 
@@ -172,16 +178,16 @@ p {
 
 .homepage {
 	position: fixed;
-    top: 10px;
-    left: 10px;
-    opacity: 0.7;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.5;
     transition: 0.3s;
 }
 
 
 .homepage:hover {
 	position: fixed;
-    top: 10px;
-    left: 10px;
+    bottom: 10px;
+    right: 10px;
     opacity: 1.0;
 }
