@@ -1,0 +1,171 @@
+body {
+	margin:0px;
+	font-family: arial;
+	background-image: linear-gradient(#fff, #000);
+	background-size: 100%;
+}
+
+.how {
+	color: lightgray;
+	font-size: 500px;
+	letter-spacing: 50px;
+	margin-left: 0px;
+	margin-top:50px;
+	text-align: right;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+
+.sad {
+	margin-top:0px;
+	text-align: right;
+	color: gray;
+	letter-spacing: 60px;
+	margin-bottom: 200px;
+}
+
+
+.to { 
+	display: inline-block;
+	color: white;
+	letter-spacing: 5px;
+	margin-left: 100px;
+}
+
+
+
+.last {
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: -1px;
+	font-size: 500px;
+	z-index: 1;
+	margin-bottom: 60px;
+}
+
+
+
+.of {
+	color: black;
+	letter-spacing: 60px;
+	font-size: 50px;
+	text-align: right;
+}
+
+
+
+.nobody{
+	margin-left: 900px;
+	color: darkgray;
+	letter-spacing: 5px;
+	word-spacing: 300px;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+
+
+.the {
+	letter-spacing: 50px;
+	margin-top: 900px;
+	margin-left: 150px;
+	color: lightgray;
+	font-size: 20px;
+	z-index: 2;
+
+}
+
+.life {
+	letter-spacing: 50px;
+	right:0px;
+	color: black;
+	font-size: 770px;
+	text-transform: uppercase;
+	line-height: 50%;
+	z-index: -1;
+	opacity: .5;
+	display: inline-block;
+	position: absolute;
+
+}
+
+.willbe {
+	display: block;
+	position: relative;
+	font-weight: bold;
+	left:900px;
+	letter-spacing: 40px;
+	margin-top: 400px;
+	margin-left: 600px;
+	color: white;
+	font-size: 20px;
+	opacity: 0.8;
+
+}
+
+.diversified {
+	letter-spacing: 50px;
+	margin-top: 300px;
+	color: white;
+	font-size: 20px;
+
+}
+
+.less {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+
+}
+
+.for {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+
+}
+
+.and {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+.oflife {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+
+}
+
+.that {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+
+}
+
+.will {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+
+}
+
+.interest {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+
+}
+
+.greed {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+
+}

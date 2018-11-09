@@ -1,145 +1,141 @@
 body {
 	margin:0px;
+	margin-top: 20px;
+	margin-left: 120px;
 	font-family: arial;
-	background-image: linear-gradient(#fff, #000);
-	background-size: 100%;
+	background-image: linear-gradient(lightgray, #000);
+	background-attachment: fixed;
+	transform: skew(10deg);
 }
 
-.pickle1 {
-	display: inline-block;
-	position: absolute;
-	color: white;
-	font-size: 50px;
+.how {
 	letter-spacing: 50px;
-	margin-left: 500px;
-	margin-top:50px;
-	text-transform: uppercase;
-	padding: 10px;
-}
-
-
-.box1 {
-	background-color: black;
-	display: inline-block;
-	position: absolute;
-	width: 900px;
-	height: 80px;
-	margin-left: 500px;
-	margin-top: 0px;
-	padding: 20px;
-	border-radius: 0px 0px 20px 20px;
-}
-
-
-
-.pickle2 {
-	display: inline-block;
-	position: absolute;
-	margin-top:310px;
-	right:90px;
 	color: white;
-	letter-spacing: -1px;
+	font-size: 15px;
+	margin:30px;
 }
 
 
-.box2 {
-	background-color: black;
-	display: inline-block;
-	position: absolute;
-	width: 200px;
-	height: 50px;
-	margin-top: 280px;
-	right:0px;
-	border-radius: 10px 0px 0px 10px;
-}
-
-
-.pickle3 {
-	display: inline-block;
-	position: absolute;
-	margin-top:1230px;
-	left:90px;
+.sad {
+	letter-spacing: 50px;
 	color: white;
-	letter-spacing: -1px;
+	font-size: 20px;
+	margin:30px;
 }
 
 
-.box3 {
-	background-color: black;
-	display: inline-block;
-	position: absolute;
-	width: 200px;
-	height: 50px;
-	margin-top: 1250px;
-	left:0px;
-	border-radius: 0px 10px 10px 0px;
-}
-
-
-.pickle4 {
-	display: inline-block;
-	position: absolute;
-	margin-top:1320px;
-	left:90px;
+.to { 
+	letter-spacing: 50px;
 	color: white;
-	letter-spacing: -1px;
-}
-
-
-.box4 {
-	background-color: black;
-	display: inline-block;
-	position: absolute;
-	width: 200px;
-	height: 50px;
-	margin-top: 1320px;
-	left:0px;
-	border-radius: 0px 10px 10px 0px;
+	font-size: 20px;
+	margin:30px;
 }
 
 
 
-.pickle5 {
-	display: inline-block;
-	position: absolute;
-	margin-top:1520px;
-	right: 200px;
+.last {
+	letter-spacing: 50px;
 	color: white;
-	letter-spacing: -1px;
-	font-size: 500px;
+	font-size: 20px;
+	margin:30px;
 }
 
 
-.box5 {
-	background-color: black;
-	display: inline-block;
-	position: absolute;
-	width: 1500px;
-	height: 300px;
-	margin-top: 1520px;
-	right:100px;
-	border-radius: 20px;
-}
 
-
-.pickle6 {
-	display: inline-block;
-	position: absolute;
-	margin-top:1520px;
-	right: 200px;
+.of {
+	letter-spacing: 50px;
 	color: white;
-	letter-spacing: -1px;
-	font-size: 500px;
+	font-size: 20px;
+	margin:30px;
+
 }
 
 
-.box6 {
-	background-color: black;
-	display: inline-block;
-	position: absolute;
-	width: 1500px;
-	height: 300px;
-	margin-top: 1520px;
-	right:100px;
-	border-radius: 20px;
+
+.nobody{
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+	margin:30px;
+}
+
+
+
+.the {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+	margin:30px;
+}
+
+.life {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+	margin:30px;
+}
+
+.diversified {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+	margin:30px;
+}
+
+.less {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+	margin:30px;
+}
+
+.for {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+	margin:30px;
+}
+
+.and {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+	margin:30px;
+}
+
+
+.oflife {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+	margin:30px;
+}
+
+.that {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+	margin:30px;
+}
+
+.will {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+	margin:30px;
+}
+
+.interest {
+	letter-spacing: 50px;
+	color: white;
+	font-size: 20px;
+	margin:30px;
+}
+
+.greed {
+	letter-spacing: 100px;
+	line-height: 1px;
+	color: white;
+	font-size: 90px;
+	margin:30px;
 }
