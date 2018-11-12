@@ -2,15 +2,13 @@ body {
 	margin:0px;
 	font-family: arial;
 	background-image: linear-gradient(#fff, #000);
-	background-size: 100%;
+	
 }
 
 .how {
 	color: lightgray;
 	font-size: 500px;
 	letter-spacing: -50px;
-	margin-left: 0px;
-	margin-top:50px;
 	text-transform: uppercase;
 	padding: 10px;
 }
@@ -198,3 +196,76 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 }
+
+
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+#bye {
+	visibility: hidden;
+}
+
+.nav {
+    font-family:sans-serif;
+    font-size:14px;
+    color:#F96ADA;
+    letter-spacing: 4px;
+    text-align:center;
+    position:fixed;
+    margin-left: 84%;
+}
+
+.prev {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(1px);
+}
+
+.prev:hover {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(0px);
+}
+
+
+.home {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(1px);
+	
+}
+
+
+.home:hover {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(0px);
+
+}
+
+.next {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(1px);
+	
+}
+
+.next:hover {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(0px);

@@ -1,0 +1,180 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil);
+
+
+
+body {
+	background-image: linear-gradient(lightblue, darkred);
+	background-attachment: scroll;
+}
+
+#wrapper {
+	border-width: 20px;
+	border-color: black;
+	margin: 0 auto;
+	width: 900px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 50px;
+	font-family: "Allerta Stencil";
+}
+
+
+.down {
+	margin-top: 900px;
+	color:white;
+	letter-spacing: 5px;
+	font-size: 10px;
+	font-family:sans-serif; 
+}
+
+
+
+.line1 {
+	padding: 5px;
+	margin-top: 1600px;
+	position: sticky;
+	position: -webkit-sticky;
+	top:100px;
+}
+
+
+.line2 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:150px;
+}
+
+.line3 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:200px;
+}
+
+.line4 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:250px;
+	}
+
+.line5 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:300px;
+}
+
+.line6 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:350px;
+}
+
+
+.line7 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:400px;
+}
+
+
+.line8 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:450px;
+}
+
+
+.line9 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:500px;
+}
+
+
+.line10 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:550px;
+}
+
+
+.line11 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:600px;
+}
+
+
+.line12 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:650px;
+}
+
+
+
+.line13 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:700px;
+}
+
+
+.line14 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:750px;
+}
+
+
+.line15 {
+	padding: 5px;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 1000px;
+	top:800px;
+}
+
+
+.line16 {
+	position: absolute;
+	position: sticky;
+	position: -webkit-sticky;
+	margin-top: 500px;
+	top:850px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 500px;
+	line-height: -10px;
+	font-family: "Allerta Stencil";
+}
+
+

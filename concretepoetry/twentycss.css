@@ -1,0 +1,186 @@
+body {
+	margin:0px;
+	font-family: arial;
+	background-image: linear-gradient(#fff, gray);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.how {
+	
+}
+
+
+.sad {
+
+
+}
+
+
+.to { 
+	
+
+}
+
+
+
+.last {
+	
+}
+
+
+
+.of {
+	
+
+}
+
+
+
+.nobody{
+
+
+}
+
+
+
+.the {
+
+}
+
+.life {
+
+
+}
+
+.willbe {
+
+}
+
+.diversified {
+	
+
+}
+
+.less {
+
+
+
+}
+
+.degree {
+
+
+}
+
+.for {
+	
+	
+}
+
+.and {
+	
+
+}
+
+.bright {
+	
+}
+
+.oflife {
+
+	
+
+}
+
+.that {
+	
+}
+
+.will {
+	
+}
+
+.interest {
+
+
+}
+
+.greed {
+	
+}
+
+
+
+
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+#bye {
+	visibility: hidden;
+}
+
+.nav {
+    font-family:sans-serif;
+    font-size:14px;
+    color:#F96ADA;
+    letter-spacing: 4px;
+    text-align:center;
+    position:fixed;
+    margin-left: 84%;
+}
+
+.prev {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(1px);
+}
+
+.prev:hover {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(0px);
+}
+
+
+.home {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(1px);
+	
+}
+
+
+.home:hover {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(0px);
+
+}
+
+.next {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(1px);
+	
+}
+
+.next:hover {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(0px);

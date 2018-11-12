@@ -1,10 +1,13 @@
 body {
 	margin:0px;
-	margin-top: 20px;
+	
 	margin-left: 120px;
 	font-family: arial;
 	background-image: linear-gradient(lightgray, #000);
 	background-attachment: fixed;
+}
+
+#wrapper {
 	transform: skew(10deg);
 }
 
@@ -139,3 +142,77 @@ body {
 	font-size: 90px;
 	margin:30px;
 }
+
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+#bye {
+	visibility: hidden;
+}
+
+.nav {
+    font-family:sans-serif;
+    font-size:14px;
+    color:#F96ADA;
+    letter-spacing: 4px;
+    text-align:center;
+    position:fixed;
+    margin-left: 80%;
+    position: relative;
+
+}
+
+.prev {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(1px);
+}
+
+.prev:hover {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(0px);
+}
+
+
+.home {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(1px);
+	
+}
+
+
+.home:hover {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(0px);
+
+}
+
+.next {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(1px);
+	
+}
+
+.next:hover {
+	display: inline-block;
+	position: relative;
+	letter-spacing: 10px;
+	padding:10px;
+	filter: blur(0px);

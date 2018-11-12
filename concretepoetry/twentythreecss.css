@@ -1,0 +1,50 @@
+body {
+	background-color: coral;
+
+}
+
+
+#wrapper {
+	text-align: center;
+	text-transform: lowercase;
+	font-weight: bold;
+  font-size: 20pt;
+  font-family: helvetica;
+  line-height: 10pt;
+  margin-top: 10%;
+}
+
+
+
+.anim {
+      animation-duration: 750ms;
+      animation-play-state: paused;
+      animation-iteration-count: infinite;
+      pointer-events: none;
+    }
+
+.triggerbox {
+      text-align: center;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: 2px;
+    }
+
+
+.triggerbox:hover .anim {
+    animation-play-state: running;
+    }
+
+@keyframes line1{
+      0% { transform: rotate(-5deg); right: 0px; top: 0px; color: black;}
+      50% { transform: rotate(5deg) translate(50px); color: coral;}
+      100% { transform: rotate(-5deg); right: 0px; top: 0px; color: black;}
+    }
+    
+@keyframes line2{
+      0% { transform: rotate(5deg); right: 0px; top: 0px; color: black;}
+      50% { transform: rotate(-5deg) translate(-50px); color: coral;}
+      100% { transform: rotate(5deg); right: 0px; top: 0px; color: black;}
+    }
+    
+ 
