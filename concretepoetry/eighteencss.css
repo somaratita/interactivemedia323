@@ -3,7 +3,7 @@ body {
 	
 	margin-left: 120px;
 	font-family: arial;
-	background-image: linear-gradient(lightgray, #000);
+	background-image: linear-gradient(#000, lightgray);
 	background-attachment: fixed;
 }
 

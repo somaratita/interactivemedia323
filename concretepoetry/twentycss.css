@@ -4,124 +4,117 @@ body {
 	background-image: linear-gradient(#fff, gray);
 	background-size: 100%;
 	background-attachment: fixed;
+	font-size:15px;
+	text-transform: uppercase;
+}
+
+.wrapper {
+	margin-top:1600px;
+	margin-left: 800px;
+	margin-bottom: 700px;
 }
 
 .how {
+	
+	transform: rotate(90deg);
 	
 }
 
 
 .sad {
-
-
+	transform: rotate(85deg);
 }
 
 
 .to { 
-	
-
+	transform: rotate(80deg);
 }
 
 
 
 .last {
-	
+	transform: rotate(75deg);
 }
 
 
 
 .of {
-	
-
+	transform: rotate(70deg);
 }
-
 
 
 .nobody{
-
-
+	transform: rotate(65deg);
 }
-
 
 
 .the {
-
+	transform: rotate(60deg);
 }
 
 .life {
-
+	transform: rotate(55deg);
 
 }
 
 .willbe {
-
+	transform: rotate(50deg);
 }
 
 .diversified {
-	
-
+	transform: rotate(45deg);
 }
 
 .less {
-
-
+	transform: rotate(45deg);
 
 }
 
 .degree {
-
+	transform: rotate(40deg);
 
 }
 
 .for {
-	
+	transform: rotate(35deg);
 	
 }
 
 .and {
-	
+	transform: rotate(30deg);
 
 }
 
 .bright {
-	
+	transform: rotate(25deg);
 }
 
 .oflife {
-
-	
-
+	transform: rotate(20deg);
 }
 
 .that {
-	
+	transform: rotate(15deg);
 }
 
 .will {
-	
+	transform: rotate(10deg);
 }
 
 .interest {
-
+	transform: rotate(5deg);
 
 }
 
 .greed {
-	
+	transform: rotate(0deg);
 }
 
 
 
 
 
-a {
-	text-decoration: none;
-	color: gray;
-}
 
-#bye {
-	visibility: hidden;
-}
 
 .nav {
     font-family:sans-serif;
@@ -130,7 +123,14 @@ a {
     letter-spacing: 4px;
     text-align:center;
     position:fixed;
+    top:0px;
     margin-left: 84%;
+}
+
+
+.nav a {
+	text-decoration: none;
+	color: gray;
 }
 
 .prev {
@@ -184,3 +184,5 @@ a {
 	letter-spacing: 10px;
 	padding:10px;
 	filter: blur(0px);
+
+}
