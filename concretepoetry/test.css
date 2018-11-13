@@ -1,5 +1,6 @@
 body {
 	margin: -10px;
+  overflow: hidden;
 }
 
 
@@ -19,4 +20,14 @@ body {
 .item1 {
   grid-column-start: 1;
   grid-column-end: 3;
+}
+
+.burst {
+  position: absolute;
+  display: inline-block;
+  height: 100px;
+  margin: 20px;
+  background: radial-gradient(#fceabb, #f8b500);
+  background-repeat: no-repeat;
+  z-index: 10;
 }

@@ -47,4 +47,6 @@ body {
       100% { transform: rotate(5deg); right: 0px; top: 0px; color: black;}
     }
     
- 
+.nav {
+  color:white;
+}
