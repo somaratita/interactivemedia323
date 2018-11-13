@@ -1,439 +1,375 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
+
 body {
-	margin:0px;
-	margin: 0 auto;
-
-}
-
-
-
-#text {
+	
 	text-align: center;
-	color: rgba(255, 255, 255, 0.0);
-	-webkit-transition: rgba(255, 255, 255, 0.0);
-	transition: 0.5s;
+	font-family: Yanone Kaffeesatz;
+	font-size: 20px;
+	animation: pulse 20s infinite;
+	text-transform: uppercase;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: lightblue;
+  }
+
+  50%{
+    background-color: coral;
+  }
+
+  100% {
+    background-color: lightblue;
+  }
+}
+
+.wrapper {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+    height: 900px;
+    padding: 10px;
 }
 
 
-#text:hover {
-	color: rgba(255, 255, 255, 1.0);
-   -webkit-transition: rgba(255, 255, 255, 1.0);
+.how {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
+}
+
+.how:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
 
-.line1 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #368cbb;
-	padding: 5px;
+.sad {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
+}
+
+.sad:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
+}
+
+.to { 
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
+}
+
+.to:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
+}
+
+.last {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
+}
+
+.last:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
+
+}
+
+.of {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
+}
+
+.of:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
 
-.line2 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #4299b5;
-	color:white;
-	padding: 5px;
+.nobody{
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-.line3 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #4da7b0;
-	color:white;
-	padding: 5px;
+.nobody:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-.line4 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #5eb9a8;
-	color:white;
-	padding: 5px;
+.the {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-.line5 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #6ac3a4;
-	color:white;
-	padding: 5px;
+.the:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-.line6 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #77c8a4;
-	color:white;
-	padding: 5px;
+.life {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-
-.line7 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #86cea4;
-	color:white;
-	padding: 5px;
+.life:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
+.willbe {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 
-.line8 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #97d5a4;
-	color:white;
-	padding: 5px;
 }
 
-
-.line9 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #aedea3;
-	color:white;
-	padding: 5px;
+.willbe:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
+.diversified {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 
-.line10 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #b9e2a1;
-	color:white;
-	padding: 5px;
 }
 
-
-.line11 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #c7e89e;
-	color:white;
-	padding: 5px;
+.diversified:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-
-.line12 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #d2ed9b;
-	color:white;
-	padding: 5px;
+.less {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-
-
-.line13 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #e1f398;
-	color:white;
-	padding: 5px;
+.less:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-
-.line14 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #eaf69e;
-	color:white;
-	padding: 5px;
+.degree {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-
-.line15 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #eff8a7;
-	color:white;
-	padding: 5px;
+.degree:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-
-.line16 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #f6fbb1;
-	color:white;
-	padding: 5px;
+.for {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-
-.line17 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fcfdba;
-	color:white;
-	padding: 5px;
+.for:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-.line18 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fefbb8;
-	color:white;
-	padding: 5px;
+.and {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-.line19 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fef3ab;
-	color:white;
-	padding: 5px;
+.and:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-.line20 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #feeb9f;
-	color:white;
-	padding: 5px;
+.bright {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-.line21 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fee492;
-	color:white;
-	padding: 5px;
+.bright:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-.line22 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fddb86;
-	color:white;
-	padding: 5px;
+.oflife {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-.line23 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fddb86;
-	color:white;
-	padding: 5px;
+.oflife:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-.line24 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fdcf7c;
-	color:white;
-	padding: 5px;
+.that {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+	filter: blur(3px);
+	transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-.line25 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fdc272;
-	color:white;
-	padding: 5px;
+.that:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-.line26 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fdb668;
-	color:white;
-	padding: 5px;
+.will {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-
-.line27 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fca95f;
-	color:white;
-	padding: 5px;
+.will:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-
-
-.line28 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fa9957;
-	color:white;
-	padding: 5px;
+.interest {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-
-
-.line29 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #f78950;
-	color:white;
-	padding: 5px;
+.interest:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
-
-
-.line30 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #f57a49;
-	color:white;
-	padding: 5px;
+.greed {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(3px);
+    transition:0.5s;
+    -webkit-transition:0.5s;
 }
 
-
-
-.line31 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #f26b43;
-	color:white;
-	padding: 5px;
-}
-
-
-
-.line32 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #eb5f46;
-	color:white;
-	padding: 5px;
-}
-
-.line33 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #e35449;
-	color:white;
-	padding: 5px;
-}
-
-.line34 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #dc494c;
-	color:white;
-	padding: 5px;
-}
-
-.line35 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #e35449;
-	color:white;
-	padding: 5px;
-}
-
-.line36 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #eb5f46;
-	color:white;
-	padding: 5px;
-}
-
-.line37 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #f26b43;
-	color:white;
-	padding: 5px;
-}
-
-.line38 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #f57a49;
-	color:white;
-	padding: 5px;
-}
-
-.line39 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #f78950;
-	color:white;
-	padding: 5px;
-}
-
-
-.line40 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fa9957;
-	color:white;
-	padding: 5px;
-}
-
-
-.line41 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fca95f;
-	color:white;
-	padding: 5px;
-}
-
-.line42 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fdb668;
-	color:white;
-	padding: 5px;
-}
-
-
-.line43 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fdc272;
-	color:white;
-	padding: 5px;
-}
-
-
-.line44 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fdcf7c;
-	color:white;
-	padding: 5px;
-}
-
-
-.line45 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fddb86;
-	color:white;
-	padding: 5px;
-}
-
-
-.line46 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #fee492;
-	color:white;
-	padding: 5px;
-}
-
-.line47 {
-	font-style: italic;
-	font-size: 40px;
-	background-color: #feeb9f;
-	color:white;
-	padding: 5px;
+.greed:hover {
+	position: relative;
+    display: inline-block;
+    margin: 20px;
+    filter: blur(0px);
 }
 
 
 
 a {
-	text-decoration: none;
-	color: lightgray;
+    text-decoration: none;
+    color: gray;
+    text-transform: lowercase;
 }
 
 #bye {
-	visibility: hidden;
+    visibility: hidden;
 }
 
 .nav {
@@ -447,53 +383,53 @@ a {
 }
 
 .prev {
-	display: inline-block;
-	position: relative;
-	letter-spacing: 10px;
-	padding:10px;
-	filter: blur(1px);
+    display: inline-block;
+    position: relative;
+    letter-spacing: 10px;
+    padding:10px;
+    filter: blur(1px);
 }
 
 .prev:hover {
-	display: inline-block;
-	position: relative;
-	letter-spacing: 10px;
-	padding:10px;
-	filter: blur(0px);
+    display: inline-block;
+    position: relative;
+    letter-spacing: 10px;
+    padding:10px;
+    filter: blur(0px);
 }
 
 
 .home {
-	display: inline-block;
-	position: relative;
-	letter-spacing: 10px;
-	padding:10px;
-	filter: blur(1px);
-	
+    display: inline-block;
+    position: relative;
+    letter-spacing: 10px;
+    padding:10px;
+    filter: blur(1px);
+    
 }
 
 
 .home:hover {
-	display: inline-block;
-	position: relative;
-	letter-spacing: 10px;
-	padding:10px;
-	filter: blur(0px);
+    display: inline-block;
+    position: relative;
+    letter-spacing: 10px;
+    padding:10px;
+    filter: blur(0px);
 
 }
 
 .next {
-	display: inline-block;
-	position: relative;
-	letter-spacing: 10px;
-	padding:10px;
-	filter: blur(1px);
-	
+    display: inline-block;
+    position: relative;
+    letter-spacing: 10px;
+    padding:10px;
+    filter: blur(1px);
+    
 }
 
 .next:hover {
-	display: inline-block;
-	position: relative;
-	letter-spacing: 10px;
-	padding:10px;
-	filter: blur(0px);
+    display: inline-block;
+    position: relative;
+    letter-spacing: 10px;
+    padding:10px;
+    filter: blur(0px);
