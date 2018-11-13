@@ -19,7 +19,10 @@ body {
 	background-position: 0 bottom;
 	background-repeat: repeat-x;
 	transform-origin: center bottom;
+	-webkit-perspective: 1000;
+	-webkit-backface-visibility: hidden;
 }
+
 
 
 
@@ -523,14 +526,28 @@ a {
 
 
 
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
 
 
 #how {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    margin-left: 500px;
+    margin-left: 200px;
+    margin-top: 300px;
     text-transform: lowercase;
+    letter-spacing: 5px;
     font-size:25px;
     color:white;
     font-family: sans-serif;
@@ -540,6 +557,7 @@ a {
     transition:0.5s;
     -webkit-transition:0.5s;
     z-index: 200;
+    animation: float 6s ease-in-out infinite;
 }
 
 #how:hover {
