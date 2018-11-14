@@ -22,15 +22,11 @@ h1 {
     filter: blur(20px);
     z-index:0;
     line-height: 190px;
-    animation: blurry 6s infinite;
+    
 }
 
 
-@keyframes blurry {
-    0% {filter: blur(30px);}
-    50% {filter: blur(15px);}
-    100% {filter: blur(30px);}
-}
+
 
 
 .homepage {
