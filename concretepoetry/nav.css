@@ -1,13 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
 body {
-    background-image: linear-gradient(#baddd6, #6d8c85);
-    background-size:100%;
+    background-image: linear-gradient(-120deg, #baddd6, #2B3C36);
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    margin:0 auto;
+    
 }
 
 h1 {
-	color: white;
+	color: #2B3C36;
+    position: absolute;
+    font-family: Georgia;
+    bottom: 0px;
+    font-size: 440px;
+    opacity: 0.5;
+    filter: blur(20px);
+    z-index:0;
+    line-height: 190px;
+    animation: blurry 6s infinite;
+}
+
+
+@keyframes blurry {
+    0% {filter: blur(30px);}
+    50% {filter: blur(15px);}
+    100% {filter: blur(30px);}
 }
 
 
@@ -16,7 +38,7 @@ h1 {
     top: 10px;
     right: 10px;
     transition: 0.4s;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 
@@ -36,9 +58,168 @@ h1 {
 
 a {
     text-decoration: none;
-    color: white;
+    color:white;
+    opacity: 0.4;
+    letter-spacing: 3px;
+    transition:0.3s;
+    
 }
 
 a:hover {
-    color: lightgreen;
+    color:black;
+}
+
+
+
+
+
+.bg {
+    background-color: transparent;
+    background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, .05) 25%, rgba(0, 0, 0, .05) 26%, 
+        transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, rgba(0, 0, 0, .05) 76%, 
+        transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, .05) 25%, 
+        rgba(0, 0, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, 
+        rgba(0, 0, 0, .05) 76%, transparent 77%, transparent);
+    height:100%;
+    background-size:1300px 1300px;
+
+}
+
+
+.bg1 {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: 1300px;
+    background-color: lightblue;
+    z-index:-1;
+    opacity: 0.5;
+}
+
+
+
+
+.part1 {
+    position: absolute;
+    color: white;
+    font-family:Georgia;
+    opacity: 0.3;
+    font-size: 170px;
+    filter: blur(3px);
+    font-family: Georgia;
+    right: 100px;
+    line-height: 70px;
+
+}
+
+.part2 {
+    position: absolute;
+    color: white;
+    font-family:Georgia;
+    opacity: 0.3;
+    font-size: 170px;
+    filter: blur(3px);
+    font-family: Georgia;
+    right: 60px;
+    margin-top: 30px;
+    line-height: 10px;
+}
+
+
+.part3 {
+    position: absolute;
+    color: white;
+    font-family:Georgia;
+    opacity: 0.3;
+    font-size: 140px;
+    filter: blur(3px);
+    font-family: Georgia;
+    right: 85px;
+    line-height: 10px;
+    margin-top: 20px; 
+}
+
+.part4 {
+    position: absolute;
+    color: white;
+    font-family:Georgia;
+    opacity: 0.3;
+    font-size: 140px;
+    filter: blur(3px);
+    font-family: Georgia;
+    right: 110px;
+    line-height: 10px;
+    margin-top: 20px;
+}
+
+.part5 {
+    position: absolute;
+    color: white;
+    font-family:Georgia;
+    opacity: 0.3;
+    font-size: 140px;
+    filter: blur(3px);
+    font-family: Georgia;
+    right: 160px;
+    margin-top: 20px;
+    line-height: 10px;
+}
+
+
+
+
+.text {
+    position: absolute;
+    font-family: Georgia;
+    font-style: italic;
+    right:350px;
+    display: inline-block;
+}
+
+
+
+.level1 {
+    margin-top: 60px;
+    margin-left: 1260px;
+}
+
+
+.level2 {
+    margin-top: 100px;
+    margin-left: 1300px;
+}
+
+
+.level3 {
+    margin-top: 100px;
+    margin-left: 1275px;
+
+}
+
+
+.level4 {
+    margin-top: 100px;
+    margin-left: 1250px;
+}
+
+
+.level5 {
+    margin-top: 100px;
+    margin-left: 1200px;
+}
+
+
+
+
+
+.author {
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    margin:10px;
+    opacity: 0.1;
+    filter: blur(1px);
+    text-transform: uppercase;
+    font-size:20px;
+    font-family: Georgia;
 }

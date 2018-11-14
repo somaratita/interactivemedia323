@@ -558,7 +558,7 @@ a {
     font-family: sans-serif;
     font-weight: bold;
     opacity: 0.2;
-    filter: blur(5px);
+    filter: blur(3px);
     transition:0.5s;
     -webkit-transition:0.5s;
     z-index: 200;
@@ -570,7 +570,7 @@ a {
 	position: absolute;
     display: inline-block;
     opacity: 1;
-    filter: blur(2px);
+    filter: blur(6px);
     z-index: 200;
 }
 
@@ -583,12 +583,12 @@ a {
     margin-top: 400px;
     text-transform: lowercase;
     letter-spacing: 5px;
-    font-size:25px;
+    font-size:15px;
     color:white;
     font-family: sans-serif;
     font-weight: bold;
     opacity: 0.2;
-    filter: blur(5px);
+    filter: blur(3px);
     transition:0.5s;
     -webkit-transition:0.5s;
     z-index: 200;
@@ -600,7 +600,7 @@ a {
 	position: absolute;
     display: inline-block;
     opacity: 1;
-    filter: blur(2px);
+    filter: blur(1px);
     z-index: 200;
 }
 
@@ -697,11 +697,11 @@ a {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    margin-left: 1500px;
-    margin-top: 400px;
+    margin-left: 2200px;
+    margin-top: 700px;
     text-transform: lowercase;
     letter-spacing: 5px;
-    font-size:15px;
+    font-size:20px;
     color:white;
     font-family: sans-serif;
     font-weight: bold;
@@ -960,8 +960,8 @@ a {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    margin-left: 750px;
-    margin-top: 1060px;
+    margin-left: 650px;
+    margin-top: 1000px;
     text-transform: lowercase;
     letter-spacing: 5px;
     font-size:60px;
@@ -1051,7 +1051,7 @@ a {
     margin-top: 450px;
     text-transform: lowercase;
     letter-spacing: 5px;
-    font-size:15px;
+    font-size:40px;
     color:white;
     font-family: sans-serif;
     font-weight: bold;
@@ -1068,7 +1068,7 @@ a {
 	position: absolute;
     display: inline-block;
     opacity: 1;
-    filter: blur2px);
+    filter: blur(7px);
     z-index: 200;
 }
 
