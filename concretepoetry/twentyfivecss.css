@@ -1,3 +1,8 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+
+
 body {
 	padding: 0px;
 	margin:0px;
@@ -528,13 +533,13 @@ a {
 
 @keyframes float {
 	0% {
-		transform: translatey(0px);
+		transform: translateY(0px);
 	}
 	50% {
-		transform: translatey(-20px);
+		transform: translateY(-20px);
 	}
 	100% {
-		transform: translatey(0px);
+		transform: translateY(0px);
 	}
 }
 
@@ -544,7 +549,7 @@ a {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 300px;
     text-transform: lowercase;
     letter-spacing: 5px;
@@ -552,8 +557,8 @@ a {
     color:white;
     font-family: sans-serif;
     font-weight: bold;
-    opacity: 0.5;
-    filter: blur(1px);
+    opacity: 0.2;
+    filter: blur(5px);
     transition:0.5s;
     -webkit-transition:0.5s;
     z-index: 200;
@@ -561,10 +566,11 @@ a {
 }
 
 #how:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
     opacity: 1;
-    filter: blur(0px);
+    filter: blur(2px);
     z-index: 200;
 }
 
@@ -573,48 +579,87 @@ a {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 300px;
+    margin-top: 400px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:25px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(5px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 6s ease-in-out infinite;
 }
 
 .sad:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(2px);
+    z-index: 200;
 }
 
 .to { 
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 800px;
+    margin-top: 500px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:15px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(5px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 6s ease-in-out infinite;
 }
 
 .to:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(2px);
+    z-index: 200;
 }
 
 .last {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 900px;
+    margin-top: 300px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:90px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(7px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 10s ease-in-out infinite;
 }
 
 .last:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(20px);
+    z-index: 200;
 
 }
 
@@ -622,16 +667,29 @@ a {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left:500px;
+    margin-top:300px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:30px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(5px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 6s ease-in-out infinite;
 }
 
 .of:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(2px);
+    z-index: 200;
 }
 
 
@@ -639,240 +697,436 @@ a {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 1500px;
+    margin-top: 400px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:15px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(5px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 6s ease-in-out infinite;
 }
 
 .nobody:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(2px);
+    z-index: 200;
 }
 
 .the {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 1500px;
+    margin-top: 600px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:23px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(5px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 6s ease-in-out infinite;
 }
 
 .the:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(2px);
+    z-index: 200;
 }
 
 .life {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 600px;
+    margin-top: 560px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:78px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(7px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 9s ease-in-out infinite;
 }
 
 .life:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(20px);
+    z-index: 200;
 }
 
 .willbe {
 	position: absolute;
     display: inline-block;
     margin: 20px;
+    margin-left: 1600px;
+    margin-top: 350px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:10px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
     filter: blur(3px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 6s ease-in-out infinite;
 
 }
 
 .willbe:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(1px);
+    z-index: 200;
 }
 
 .diversified {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 1000px;
+    margin-top: 500px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:40px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(6px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 10s ease-in-out infinite;
 
 }
 
 .diversified:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(27px);
+    z-index: 200;
 }
 
 .less {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 50px;
+    margin-top: 500px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:50px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(15px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 8s ease-in-out infinite;
 }
 
 .less:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(7px);
+    z-index: 200;
 }
 
 .degree {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 1200px;
+    margin-top: 410px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:15px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(5px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 6s ease-in-out infinite;
 }
 
 .degree:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(2px);
+    z-index: 200;
 }
 
 .for {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 150px;
+    margin-top: 800px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:60px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(8px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 10s ease-in-out infinite;
 }
 
 .for:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(18px);
+    z-index: 200;
 }
 
 .and {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 1700px;
+    margin-top: 900px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:90px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(25px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 5s ease-in-out infinite;
 }
 
 .and:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(13px);
+    z-index: 200;
 }
 
 .bright {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 750px;
+    margin-top: 1060px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:60px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(13px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 10s ease-in-out infinite;
 }
 
 .bright:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(9px);
+    z-index: 200;
 }
 
 .oflife {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 900px;
+    margin-top: 900px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:15px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(5px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 9s ease-in-out infinite;
 }
 
 .oflife:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(2px);
+    z-index: 200;
 }
 
 .that {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-	filter: blur(3px);
-	transition:0.5s;
+    margin-left: 1000px;
+    margin-top: 700px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:90px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(20px);
+    transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 6s ease-in-out infinite;
 }
 
 .that:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(10px);
+    z-index: 200;
 }
 
 .will {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 1900px;
+    margin-top: 450px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:15px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(5px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 8s ease-in-out infinite;
 }
 
 .will:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur2px);
+    z-index: 200;
 }
 
 .interest {
 	position: absolute;
     display: inline-block;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 2000px;
+    margin-top: 350px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:20px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(5px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 200;
+    animation: float 7s ease-in-out infinite;
 }
 
 .interest:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(2px);
+    z-index: 200;
 }
 
 .greed {
 	position: absolute;
     display: inline-block;
+    right: 0px;
     margin: 20px;
-    filter: blur(3px);
+    margin-left: 20px;
+    margin-top: 1000px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    font-size:700px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.2;
+    filter: blur(30px);
     transition:0.5s;
     -webkit-transition:0.5s;
+    z-index: 150;
+    animation: float 4s ease-in-out infinite;
 }
 
 .greed:hover {
+	font-style: "Fredoka One", sans-serif;
 	position: absolute;
     display: inline-block;
-    margin: 20px;
-    filter: blur(0px);
+    opacity: 1;
+    filter: blur(2px);
+    z-index: 200;
 }	
