@@ -37,14 +37,14 @@ div {
 
 /* Media Queries */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1224px) {
 
-  body { background: url('./images/02.jpg'); }
+  body { background: url('./images/02.gif'); }
   h1 { font-size: 70px; }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
 
   body { background: url('./images/03.jpg'); }
   h1 { font-size: 50px; }
@@ -53,7 +53,7 @@ div {
 
 @media screen and (max-width: 600px) {
 
-  body { background: url('./images/04.gif'); }
+  body { background: url('./images/04.jpg'); }
   h1 { font-size: 20px; }
 
 }
