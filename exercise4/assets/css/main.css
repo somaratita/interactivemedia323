@@ -238,3 +238,19 @@ body {
 	position: absolute;
 	z-index: 5;
 }
+
+.homepage {
+  position: fixed;
+    top: 10px;
+    right: 10px;
+    transition: 0.4s;
+    opacity: 0.4;
+}
+
+
+.homepage:hover {
+  position: fixed;
+    top: 10px;
+    right: 10px;
+    opacity: 1.0;
+}
