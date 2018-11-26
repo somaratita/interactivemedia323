@@ -1,0 +1,21 @@
+body {
+	background-color: #1471b9;
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	color: #959e89;
+	margin: 0 auto;
+	width: 50%;
+	margin-top: 30%;
+}
+
+a {
+	color: #959e89;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: white;
+	font-style: normal;
+}

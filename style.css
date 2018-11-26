@@ -76,24 +76,6 @@ p {
 
 
 
-.prev1 {
-	display: inline-block;
-	position: absolute;
-	background-image: linear-gradient(#d5977e, #27465d);
-	padding: 10px 10px 10px 10px;
-	border-radius: 20px;
-	text-align: center;
-	font-size: 13px;
-	width: 300px;
-	height: 100px;
-	margin-top: 600px;
-	margin-left: 50px;
-	z-index: 9;
-	visibility: hidden;
-	transition: 0.5s;
-}
-
-
 
 
 .social {
