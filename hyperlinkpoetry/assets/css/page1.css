@@ -1,14 +1,5 @@
 body {
 	background-color: #1471b9;
-	font-family: arial;
-	font-weight: bold;
-	font-style: italic;
-	color: #959e89;
-	margin: 0 auto;
-	width: 50%;
-	height: 50%;
-	margin-top: 20%;
-	text-align: center;
 }
 
 a {
@@ -21,4 +12,16 @@ a:hover {
 	color: white;
 	font-style: normal;
 	text-transform: uppercase;
+}
+
+.container {
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	color: #959e89;
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+	margin-top: 30%;
+	text-align: center;
 }

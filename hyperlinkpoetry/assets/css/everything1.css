@@ -1,1 +1,25 @@
-everything1.css
+.line1 {
+	font-size: 110px;
+	width: 1000px;
+	position: absolute;
+	bottom:160px;
+	right:120px;
+}
+
+.line2 {
+	font-size: 110px;
+	width: 1000px;
+	position: absolute;
+	top:260px;
+	left:120px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color:#bb2b37;
+	text-transform: uppercase;
+}
