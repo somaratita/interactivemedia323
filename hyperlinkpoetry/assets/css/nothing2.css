@@ -1,3 +1,4 @@
+
 .movar {
 	position: absolute;
 	bottom:500px;
@@ -14,20 +15,8 @@
 	font-size: 12px;
 	margin-right:400px;
 	z-index: 2;
-	color:white;
 }
 
-
-.gone2 {
-	text-transform: uppercase;
-	font-family: arial;
-	font-style: italic;
-	display: inline;
-	font-size: 12px;
-	margin-right:400px;
-	z-index: 2;
-
-}
 
 .possess {
 	font-size:280px;
@@ -37,8 +26,8 @@
 	font-style: italic;
 	font-weight: bold;
 	z-index: -1;
-	visibility: hidden;
 }
+
 
 a {
 	text-decoration: none;

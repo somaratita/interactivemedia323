@@ -16,12 +16,14 @@ a:hover {
 
 .container {
 	font-family: arial;
+	letter-spacing: 2px;
+	word-spacing: 7px;
 	font-weight: bold;
 	font-style: italic;
 	color: #959e89;
 	margin: 0 auto;
 	width: 50%;
 	height: 50%;
-	margin-top: 30%;
+	margin-top: 20%;
 	text-align: center;
 }
