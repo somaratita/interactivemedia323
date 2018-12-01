@@ -1,0 +1,40 @@
+body {
+	font-family: arial;
+}
+
+.wrap {
+	margin-top:200px;
+	margin-left: 300px;
+}
+
+
+.line1 {
+	color:gray;
+	font-size:30px;
+
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+
+.line2 {
+	color:#bb2b37;
+	font-size:15px;
+	text-transform: lowercase;
+	width:200px;
+	text-align: justify;
+	letter-spacing: 3px;
+}
+
+a {
+	text-decoration: none;
+	color:#bb2b37;
+}
+
+a:hover {
+	color:gray;
+}
+
+.line2 a:hover {
+	color:transparent;
+}
