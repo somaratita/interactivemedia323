@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>sovereignty</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Droid+Sans'>
+
+      <link rel="stylesheet" href="./assets/css/past1.css">
+
+<!--source code for scrolling: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll -->
+
+<!--JAVA-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+  
+</head>
+
+<body>
+
+<div class="entries">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <div class="entry">
+    <div class="title"><a href="#Germany">España</a></div>
+    <div class="body">
+      <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div id="Germany"><br></div><br><br><br><br><br><br></p>
+    </div>
+  </div>
+  
+
+  <div class="entry">
+    <div class="title"><a href="#Japan">Deutschland</a></div>
+    <div class="body">
+      <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div id="Japan"><br></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+    </div>
+  </div>
+  
+
+  <div class="entry">
+    <div class="title"><a href="#USA">日本</a></div>
+    <div class="body">
+      <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div id="USA"><br></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+    </div>
+  </div>
+  
+
+  <div class="entry">
+    <div class="title big"><a href="./page5.html">USA</a></div>
+    <div class="body">
+      <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+    </div>
+  </div>
+  
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
