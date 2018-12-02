@@ -1,0 +1,26 @@
+
+.homepage {
+	position: fixed;
+    top: 10px;
+    right: 10px;
+    color: yellow;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:monospace;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+
+.homepage:hover {
+	position: fixed;
+    top: 10px;
+    right: 10px;
+    color: yellow;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:monospace;
+    opacity: 1.0;
+}
