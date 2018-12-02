@@ -24,7 +24,10 @@ a:hover {
 	width: 50%;
 	height: 50%;
 	margin-top: 20%;
+	margin-left: 25%;
 	text-align: center;
+	position: absolute;
+	display: inline-block;
 }
 
 .biba {
@@ -35,6 +38,7 @@ a:hover {
 	font-style: italic;
 	color: #fff;
 	margin: 0 auto;
+	text-align: center;
 	position: absolute;
 	font-size: 500px;
 
@@ -49,21 +53,7 @@ a:hover {
 	font-style: italic;
 	color: #fff;
 	margin: 0 auto;
+	text-align: center;
 	position: absolute;
 	font-size: 600px;
-	right:20px;
-}
-
-
-.biba3 {
-	font-family: arial;
-	letter-spacing: 2px;
-	word-spacing: 7px;
-	font-weight: bold;
-	font-style: italic;
-	color: #fff;
-	margin: 0 auto;
-	position: absolute;
-	font-size: 800px;
-	right:20px;
 }

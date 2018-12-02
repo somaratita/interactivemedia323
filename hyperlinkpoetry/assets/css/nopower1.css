@@ -1,5 +1,7 @@
 body {
 	background-color: #959e89;
+	bottom: 20px;
+	position: absolute;
 }
 
 .line1 {
