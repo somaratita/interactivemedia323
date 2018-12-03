@@ -2,8 +2,8 @@ html,body {
   font-family: arial, sans-serif;
   padding: 1em 2em;
   font-size: 18px;
-  background: #222;
-  color: #aaa
+  background: #fff;
+  color: #aaa;
 }
 
 h1,h2 {
@@ -23,5 +23,5 @@ a {
 }
 
 a:hover {
-	color:#1471b9;
+	color:#bf2734;
 }
